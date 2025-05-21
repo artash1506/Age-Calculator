@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Age calculator app</title>
+
+</head>
+
+<body>
+  <div class="container"> 
+     
+    <div class="input-field">
+      <div class="input-item">
+        <p class="explanation">DAY</p>
+        <input type="number" id="input-day" placeholder="DD">
+      </div>
+      <div class="input-item">
+        <p class="explanation">MONTH</p>
+        <input type="number" id="input-month" placeholder="MM">
+      </div>
+      <div class="input-item">
+        <p class="explanation">YEAR</p>
+        <input type="number" id="input-year" placeholder="YYYY">
+      </div>
+    </div>
+
+    <div class="button-block">
+      <div class="line"></div>
+      <button id="calculate-btn" class="calculate-btn"><img src="arrow-circle-down.svg" alt=""></button>
+    </div>
+
+    <div class="data">
+      <h1 id="years">00</h1>  <h1>years</h1>
+      <h1 id="months">0</h1>  <h1>months</h1>
+      <h1 id="days">00</h1>  <h1>days</h1>
+    </div>
+  </div>
+  <div class="creator">
+    <h3 class="by">By Tangunc</h3>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
